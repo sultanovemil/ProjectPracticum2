@@ -65,7 +65,7 @@
 - По признаку длительности поездки: 4.
 - По признаку скорости: 407.
 
- ## 3. Разведывательный анализ данных (EDA):
+ ## 3. Разведывательный анализ данных (EDA)
 
 В ходе анализа данных о поездках такси в Нью-Йорке были построены различные визуализации для выявления зависимостей и закономерностей. 
 
@@ -111,7 +111,6 @@
 ### Выбор признаков с помощью SelectKBest:
 
 - Применен метод SelectKBest с score_func=f_regression для отбора 25 признаков.
-- В список отобранных признаков вошли: 'vendor_id', 'passenger_count', 'pickup_longitude', 'pickup_latitude', 'dropoff_longitude', 'dropoff_latitude', 'store_and_fwd_flag', 'pickup_hour', 'pickup_holiday', 'total_distance', 'total_travel_time', 'number_of_steps', 'haversine_distance', 'temperature', 'pickup_day_of_week_1', 'pickup_day_of_week_2', 'pickup_day_of_week_3', 'pickup_day_of_week_4', 'pickup_day_of_week_5', 'pickup_day_of_week_6', 'geo_cluster_1', 'geo_cluster_3', 'geo_cluster_5', 'geo_cluster_7', 'geo_cluster_9'.
 
 ### Нормализация предикторов:
 

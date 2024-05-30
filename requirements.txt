@@ -1,0 +1,8 @@
+scikit-learn
+pandas
+numpy
+matplotlib
+scipy
+pickle
+seaborn
+plotly
